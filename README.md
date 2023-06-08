@@ -23,7 +23,7 @@ This repository is heavily based on the code from [Ilharco et al. (2022)](https:
 
 ### Task vectors
 
-The task vector logic in [src/task_vectors.py](src/task_vectors) has been extended to distinguish between `NonLinearTaskVector`s and `LinearizedTaskVector`s which can be applied to non-linear `ImageEncoder`s and `LinearizedImageEncoder`s, respectively. Given a pre-trained checkpoint and a fine-tuned checkpoint, you can create a linearized/standard task vector as:
+The task vector logic in [src/task_vectors.py](src/task_vectors.py) has been extended to distinguish between `NonLinearTaskVector`s and `LinearizedTaskVector`s which can be applied to non-linear `ImageEncoder`s and `LinearizedImageEncoder`s, respectively. Given a pre-trained checkpoint and a fine-tuned checkpoint, you can create a linearized/standard task vector as:
 
 ```python
 from src.task_vectors import NonLinearTaskVector, LinearizedTaskVector
